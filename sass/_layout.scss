@@ -8,9 +8,15 @@
 }
 
 .header {
+    font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    // Parent of components: logo, search, user nav
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 // Flex container
