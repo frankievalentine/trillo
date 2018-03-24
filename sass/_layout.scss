@@ -30,12 +30,18 @@
 
     // flex-grow flex-shrink flex-basis
     flex: 0 0 18%;
+
+    display: flex;
+    // change direction so we can use justify content in a different direction
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 // Flex item
 .hotel-view {
     background-color: #fff;
     background-color: orangered;
+    height: 80rem;
 
     // Occupy the entire flexbox space
     flex: 1;
